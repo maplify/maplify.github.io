@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOEN Network</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* 首页英雄部分样式 */
+     .hero {
+            position: relative;
+            height: 400px;
+            overflow: hidden;
+        }
+
+     .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+
+     .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+     .hero-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+     .hero-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+     .cta-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+     .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* 特色部分样式 */
+     .features {
+            padding: 50px;
+            text-align: center;
+        }
+
+     .features h2 {
+            margin-bottom: 30px;
+        }
+
+     .feature {
+            display: inline-block;
+            width: 300px;
+            margin: 20px;
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+     .feature img {
+            width: 80px;
+            height: 80px;
+        }
+
+     .feature h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* 规则部分样式 */
+     .rules {
+            padding: 50px;
+            text-align: left;
+        }
+
+     .rules h2 {
+            margin-bottom: 20px;
+        }
+
+     .rules ul {
+            margin-left: 20px;
+        }
+
+        /* 加入部分样式 */
+     .join {
+            padding: 50px;
+            text-align: center;
+        }
+
+     .join h2 {
+            margin-bottom: 20px;
+        }
+
+     .join.server-address,
+     .join.server-port {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* 社区部分样式 */
+     .community {
+            padding: 50px;
+            text-align: center;
+        }
+
+     .community h2 {
+            margin-bottom: 20px;
+        }
+
+     .community img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        /* 底部样式 */
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>FOEN Network</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">特色</a></li>
+                <li><a href="#rules">规则</a></li>
+                <li><a href="#join">加入我们</a></li>
+                <li><a href="#community">社区</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <img src="https://s2.loli.net/2025/01/29/JSH5xAUzaZtgE4v.png" alt="FOEN">
+        <div class="hero-content">
+            <h2>欢迎来到FOEN Network</h2>
+            <p>在这里开启你的独特冒险之旅！</p>
+            <a href="#join" class="cta-button">立即加入</a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <h2>服务器特色</h2>
+        <div>
+            <h3>红石与生电</h3>
+            <p>独立服务器，请移步至隔壁FORW）</p>
+        </div>
+        <div>
+            <h3>养老生存</h3>
+            <p>边养老，边生存，打造你的家园。</p>
+        </div>
+        <div>
+            <img src="https://s2.loli.net/2025/01/29/o3Ef4letsVGX8ha.jpg" alt="自定义图标">
+            <h3>高可玩性</h3>
+            <p>丰富的插件，带来前所未有的体验。</p>
+        </div>
+    </section>
+    <section id="rules" class="rules">
+        <h2>服务器规则</h2>
+        <ul>
+            <li>禁止作弊，保持公平游戏环境。</li>
+            <li>尊重其他玩家，禁止辱骂和恶意攻击。</li>
+            <li>不得破坏他人建筑，未经允许不得进入他人领地。</li>
+            <li>遵守服务器的活动安排和管理规定。</li>
+        </ul>
+    </section>
+    <section id="join" class="join">
+        <h2>加入我们</h2>
+        <p>Java版服务器地址：<span class="server-address">mc.foen.us.kg</span></p>
+        <a href="https://minecraft.net/download" class="cta-button" target="_blank">下载Minecraft</a>
+        <a href="minecraft://" class="cta-button" target="_blank">快速开始！</a>
+    </section>
+    <section id="community" class="community">
+        <h2>社区互动</h2>
+        <p>加入我们频道，与其他玩家交流互动：<a href="https://pd.qq.com/s/h3vgx0rd1?shareSource=5&businessType=9" class="cta-button"
+                target="_blank">点击加入</a></p>
+    </section>
+    <footer>
+        <p>&copy; Copyright FOEN Network 2025.</p>
+    </footer>
+    <script>
+        // 这里可以添加JavaScript交互逻辑，目前示例中暂未添加具体功能
+    </script>
+</body>
+
+</html>
